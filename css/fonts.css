@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'Coiny';
+	src: url('../fonts/Coiny-Regular.woff2') format('woff2'), url('../fonts/Coiny-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

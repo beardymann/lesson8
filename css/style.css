@@ -1,0 +1,95 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%, -50%);
+}
+
+.overlay {
+	position: absolute;
+	top: 0px;
+}
+
+.text {
+	font-size: 30px;
+	color: aqua;
+	margin-left: 250px;
+	margin-top: 20px;
+	font-family: 'Coiny';
+	animation: change 3s ease 0.2s infinite;
+}
+
+.text2 {
+	font-size: 30px;
+	color: aqua;
+	margin-left: 300px;
+	margin-top: 10px;
+	font-family: 'Coiny';
+	animation: animacia 4s ease 0.3s infinite;
+}
+
+.text3 {
+	font-size: 50px;
+	color: aqua;
+	margin-top: 15px;
+	margin-left: 350px;
+	font-family: 'Coiny';
+	animation: life 1s ease 0.3s infinite;
+}
+
+@keyframes change {
+	0% {
+		color: red
+	}
+
+	50% {
+		color: white
+	}
+
+	100% {
+		color: aqua
+	}
+
+}
+
+@keyframes animacia {
+	0% {
+		color: blue
+	}
+
+	50% {
+		color: grey
+	}
+
+	100% {
+		color: yellow
+	}
+
+}
+
+@keyframes life {
+	30% {
+		color: white
+	}
+
+	80% {
+		color: darkorange
+	}
+
+}
